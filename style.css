@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+* {
+    box-sizing: border-box;
+}
+.title{
+    border: 1px solid gray;
+    background-color: rgb(0, 255, 149);
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+    height: 45px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    box-shadow: 2px 2px gray;
+    }
+body {
+    color: white;
+    background-blend-mode:soft-light;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
+
+.box-form{
+    background-color: rgb(0,0,0,0.5);
+    color: #fff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);    
+    padding: 12px 20px;
+    border-radius: 4px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: auto;
+    margin-bottom: 25px;
+}
+
+form{
+    color: #fff;
+}
+.box-form input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.box-form input[type=email]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.box-form input[type=number]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.box-form input[type=file]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.box-form input[type=submit]{
+   width: 100%;
+   background-color: #97081b;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.box-form input:hover[type=submit]{
+    font-weight: bold;
+    filter: brightness(130%);
+ }  
+.box-form select{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-form textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+}

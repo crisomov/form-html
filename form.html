@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="title">Form Data Input</div>
+
+    <div class="box-form">
+
+        <form id="form-contact" name="form-contact" action="form-process.html" method="post">    
+        
+        <label for="">Name:</label>
+        
+        <input type="text" name="name" id="name">
+        
+        <br>
+        
+        
+        <label for="">e-mail:</label>
+        <input type="email" name="email" id="email">
+        
+        <br>
+        
+        <label for="">Phone:</label>
+        <input type="number" name="phone" id="phone">
+        
+        <br>
+        
+        <label for="">Subject:</label>
+        <select name="asunto">
+            <option value="subject" selected></option>
+            <option value="consultation">Consultation</option>
+            <option value="business">Business</option>
+            <option value="work">Work</option>
+            <option value="plans">Plans</option>
+            <option value="asesorias">Consulting</option>
+            <option value="partner">Partner</option>
+            <option value="coach">Coach</option>
+
+          </select>
+        
+        <br>
+
+        <label for="">Files:</label>
+        <input type="file" id="files" name="files" accept="" />
+
+        <br>
+
+        <label for="">Message:</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <br>
+        
+        
+        <input id="btn-mensaje" type="submit" value="Send message" name="send-message">
+        
+        
+        </form>
+
+</div>
+
+
+</body>
+</html>
